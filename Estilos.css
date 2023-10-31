@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+
+body {
+    background-image: url(fondo-tecnologia-puntos-lineas_23-2147835503.avif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier', sans-serif;
+    
+}
+
+
+div#father{
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 1px rgba(11, 10, 10, 0.3);
+    background-color: rgba(123, 168, 161, 0.832);
+    
+}
+
+
+div#name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div#content {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+div#photo {
+    margin: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img#personPhoto {
+    /* La imagen usara el 100% del espacio disponible del contenedor*/
+    width: 100%; 
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 3px rgba(0, 0, 0, 0.29);
+}
+
+div#description {
+    padding: 10px;
+}
+
